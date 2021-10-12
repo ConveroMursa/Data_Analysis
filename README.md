@@ -1,2 +1,2 @@
 # Data_Analysis
-several small data analysis projects
+small data analysis projects
