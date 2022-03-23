@@ -1,0 +1,23 @@
+Description of Dataset:
+UK Online Store transaction data between 1 December 2010 and 9 December 2011, where:
+
+InvoiceNo
+StockCode
+Description
+Quantity 
+InvoiceDate 
+UnitPrice
+CustomerID 
+Country
+
+Dashbord url: https://redash.lab.karpov.courses/public/dashboards/Bycv0JWLSIDJlASMdtQJ3nhgMcr8pwW0SdFEerLS?org_slug=default
+
+Dashbord description:
+1. Determine the Top 10 countries by the largest average number of products per order.
+2. Among these countries, we will count the number of goods by buyers and draw a box plot
+to identify outliers - buyers with an abnormal amount of goods.
+3. Let's see what countries these buyers are located in (errors in the data due to the time zone or bots)
+4. Buyer 14646 from the Netherlands makes purchases almost every month and each invoice contains different categories of goods - most likely it is some kind of large wholesale store.
+5. Buyers from Ireland also regularly buy in different categories in one invoice, but 14911 more often in small orders, and 14156 less often.
+6. A buyer from Australia places orders at a strange time for Australia from 19.00 to 3.00. Either data errors or a bot are possible here.
+7. A Swedish customer buys different quantities each month - probably as stock runs out, but more likely to be a more specialized store as he does not purchase goods related to light.
