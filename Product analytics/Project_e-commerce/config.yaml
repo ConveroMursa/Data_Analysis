@@ -1,0 +1,19 @@
+input_columns:
+  - order_date
+  - user_id
+  - order_value
+segments_count:
+  recency: 3  
+  frequency: 3  
+  monetary: 3  
+rfmizer:
+  look_back_period: 591 # earliest date for RFMizer (number of days)
+  output_columns:
+    user_id: user_id
+    recency: recency
+    frequency: frequency
+    monetary: monetary
+predictor:
+  prediction_period: 182 # lookback window for RFMestimator (number of days)
+output_path: .
+output_file_prefix: RFM_3-3-3-591-182
