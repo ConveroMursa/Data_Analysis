@@ -30,3 +30,18 @@ Tools - Pyton libraries: pandas, numpy.
 2.3 RFM
 The objective of the project - create RFM clusters for users and create a visualization.
 Tools - Pyton libraries: pandas, numpy, matplotlib, seaborn.
+
+3. SQL.
+Нere are the following projects:
+
+3.1 Flights research (Postgres)
+The objective of the project - to explore data and calculate metrics for flights and aircraft database
+Tools -  PostgreSQL & DBeaver
+
+3.2 To_sql_from_python(ClickHouse)
+The objective of the project - to get data from ClickHouse database and calculate metrics in python.
+Tools - SQL, Python
+
+3.3 Dashboard_in_redash
+The objective of the project - to conduct anomaly investigation and create a dashboard for SQL queries.
+Tools - Redash, PostgreSQL
